@@ -17,16 +17,21 @@ export function HeroSection() {
     <section ref={sectionRef} className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
       <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{
-          backgroundImage: `url('/home/hero.jpg?height=1080&width=1920')`,
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-r from-forest/85 via-olive/70 to-transparent" />
-      </div>
+  className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+  style={{
+    backgroundImage: `url('/home/hero.jpg?height=1080&width=1920')`,
+  }}
+>
+  {/* Desktop + Tablet Gradient */}
+  <div className="absolute inset-0 hidden sm:block bg-linear-to-r from-forest/85 via-olive/70 to-transparent" />
+
+  {/* Mobile Gradient (stronger & wider) */}
+  <div className="absolute inset-0 block sm:hidden bg-linear-to-r from-forest/90 via-forest/70 to-forest/60" />
+</div>
+
 
       {/* Content */}
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32 pt-40">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-38 pt-20">
         <div className="max-w-2xl">
           <span
             className={`inline-block text-pista/90 text-sm tracking-widest uppercase mb-4 ${
