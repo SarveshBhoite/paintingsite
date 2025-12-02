@@ -16,7 +16,8 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "BrushCraft Pro | Premium Painting Services",
+  title: "PP PaintingServices | Premium Painting Services",
+  icons: "./logobg.png",
   description:
     "Transform your space with our premium painting services. Expert craftsmanship, eco-friendly paints, and flawless finishes.",
     generator: 'v0.app'

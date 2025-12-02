@@ -33,7 +33,7 @@ export function StorySection() {
             <h2 className="text-3xl md:text-4xl font-bold text-forest mb-6">Our Story</h2>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                Founded in 2005, BrushCraft Pro began as a small family business with a big dream: to bring artistry and
+                Founded in 2005, PP PaintingServices began as a small family business with a big dream: to bring artistry and
                 excellence to every painting project, no matter the size.
               </p>
               <p>

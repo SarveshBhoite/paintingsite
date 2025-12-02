@@ -56,7 +56,7 @@ export function ServicePillars() {
               isVisible ? "animate-fade-in-up" : "opacity-0"
             }`}
           >
-            Why Choose BrushCraft Pro
+            Why Choose PP PaintingServices
           </h2>
           <p
             className={`text-muted-foreground max-w-2xl mx-auto ${

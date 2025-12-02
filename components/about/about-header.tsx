@@ -17,7 +17,7 @@ export function AboutHeader() {
             isVisible ? "animate-fade-in-up" : "opacity-0"
           }`}
         >
-          About BrushCraft Pro
+          About PP PaintingServices
         </h1>
         <div
           className={`w-24 h-1 bg-olive mx-auto mb-6 ${

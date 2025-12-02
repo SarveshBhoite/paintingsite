@@ -1,5 +1,6 @@
 "use client"
 
+import Image from "next/image"
 import Link from "next/link"
 import { useState } from "react"
 import { Menu, X, Phone } from "lucide-react"
@@ -20,13 +21,22 @@ export function Navbar() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-background backdrop-blur-md border-b border-border/50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
-          {/* Logo */}
-          <Link href="/" className="flex items-center gap-2">
-            <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-lg">B</span>
+
+          {/* Updated Logo */}
+          <Link href="/" className="flex items-center gap-3 group">
+            <div className="relative w-12 h-12">
+              <Image
+                src="/logobg.png"
+                alt="Painting Services Logo"
+                fill
+                className="object-contain transition-transform group-hover:scale-105"
+                priority
+              />
             </div>
-            <span className="text-xl font-semibold text-foreground tracking-wide">
-              BrushCraft<span className="text-primary">Pro</span>
+
+            {/* Brand Text */}
+            <span className="text-xl font-semibold text-primary tracking-wide group-hover:text-primary/80 transition-colors">
+              PP <span className="text-foreground">PaintingServices</span>
             </span>
           </Link>
 
@@ -36,23 +46,23 @@ export function Navbar() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="text-muted-foreground hover:text-primary transition-colors duration-300 font-bold text-xl"
+                className="text-muted-foreground hover:text-primary transition-colors duration-300 font-bold text-lg"
               >
                 {link.label}
               </Link>
             ))}
           </nav>
 
-          {/* CTA Button */}
+          {/* Desktop CTA */}
           <div className="hidden md:flex items-center gap-4">
             <a
               href="tel:+919136870930"
               className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
             >
               <Phone className="w-4 h-4" />
-              <span className="text-xl">9136870930</span>
+              <span className="text-lg">9136870930</span>
             </a>
-            <Button asChild className="bg-primary hover:bg-primary/90 text-primary-foreground text-xl">
+            <Button asChild className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg">
               <Link href="/contact">Get Free Estimate</Link>
             </Button>
           </div>

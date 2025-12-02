@@ -11,7 +11,7 @@ const testimonials = [
     role: "Homeowner",
     image: "/placeholder.svg?height=80&width=80",
     quote:
-      "BrushCraft Pro transformed our home completely. The attention to detail and professionalism was outstanding. Our walls have never looked better!",
+      "PP PaintingServices transformed our home completely. The attention to detail and professionalism was outstanding. Our walls have never looked better!",
     rating: 5,
   },
   {
@@ -29,7 +29,7 @@ const testimonials = [
     role: "Interior Designer",
     image: "/placeholder.svg?height=80&width=80",
     quote:
-      "As an interior designer, I'm very particular about paint quality. BrushCraft Pro consistently delivers the perfect finish for my clients.",
+      "As an interior designer, I'm very particular about paint quality. PP PaintingServices consistently delivers the perfect finish for my clients.",
     rating: 5,
   },
 ]

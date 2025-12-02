@@ -33,7 +33,7 @@ export function MapSection() {
         allowFullScreen
         loading="lazy"
         referrerPolicy="no-referrer-when-downgrade"
-        title="BrushCraft Pro Location"
+        title="PP PaintingServices Location"
         className="grayscale-[30%] contrast-[1.1]"
       />
     </section>

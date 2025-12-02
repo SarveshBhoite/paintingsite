@@ -23,8 +23,8 @@ const contactInfo = [
   {
     icon: Mail,
     label: "Email",
-    value: "info@brushcraftpro.com",
-    href: "mailto:info@brushcraftpro.com",
+    value: "info@pppaintingservices.com",
+    href: "mailto:info@pppaintingservices.com",
   },
   {
     icon: MapPin,

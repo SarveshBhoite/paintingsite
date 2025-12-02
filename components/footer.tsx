@@ -70,8 +70,8 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-accent" />
-                <a href="mailto:info@brushcraftpro.com" className="text-pista/70 hover:text-accent transition-colors">
-                  info@brushcraftpro.com
+                <a href="mailto:info@pppaintingservices.com" className="text-pista/70 hover:text-accent transition-colors">
+                  info@pppaintingservices.com
                 </a>
               </li>
               <li className="flex items-start gap-3">
@@ -107,7 +107,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-pista/20 mt-12 pt-8 text-center text-pista/60">
-          <p>&copy; {new Date().getFullYear()} BrushCraft Pro. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} PP PaintingServices. All rights reserved.</p>
         </div>
       </div>
     </footer>
