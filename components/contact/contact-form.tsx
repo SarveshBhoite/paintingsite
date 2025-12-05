@@ -30,7 +30,7 @@ const contactInfo = [
     icon: MapPin,
     label: "Address",
     value: "123 Paint Street, Pune City, AC 12345",
-    href: "https://maps.app.goo.gl/32wY3YqzqhovSady5",
+    href: "https://maps.app.goo.gl/3ajzW4VVYf34Sdnx6?g_st=awb",
   },
 ]
 
