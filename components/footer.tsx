@@ -70,8 +70,8 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-accent" />
-                <a href="mailto:info@pppaintingservices.com" className="text-pista/70 hover:text-accent transition-colors">
-                  info@pppaintingservices.com
+                <a href="mailto:pphomepaintingservices@gmail.com" className="text-pista/70 hover:text-accent transition-colors">
+                  pphomepaintingservices@gmail.com
                 </a>
               </li>
               <li className="flex items-start gap-3">
