@@ -77,9 +77,9 @@ export function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-accent mt-1" />
                 <span className="text-pista/70">
-                  123 Paint Street
+                  Santkrupa housing society, Hanuman Nagar
                   <br />
-                  Pune City, AC 12345
+                  Pimpri-Chinchwad, Maharashtra 411062
                 </span>
               </li>
             </ul>
