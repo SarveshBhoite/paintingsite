@@ -77,7 +77,7 @@ export function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-accent mt-1" />
                 <span className="text-pista/70">
-                  Santkrupa housing society, Hanuman Nagar
+                  Santkrupa housing society, near Vinayak mens Parlour, Mhetre Wadi, Hanuman Nagar, Chikhali
                   <br />
                   Pimpri-Chinchwad, Maharashtra 411062
                 </span>
