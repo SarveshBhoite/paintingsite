@@ -33,7 +33,7 @@ export function StorySection() {
             <h2 className="text-3xl md:text-4xl font-bold text-forest mb-6">Our Story</h2>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                Founded in 2005, PP PaintingServices began as a small family business with a big dream: to bring artistry and
+                Founded in 2023, PP PaintingServices began as a small family business with a big dream: to bring artistry and
                 excellence to every painting project, no matter the size.
               </p>
               <p>
@@ -49,17 +49,17 @@ export function StorySection() {
             </div>
             <div className="mt-8 flex items-center gap-6">
               <div>
-                <span className="text-4xl font-bold text-olive">20+</span>
+                <span className="text-4xl font-bold text-olive">10+</span>
                 <p className="text-sm text-muted-foreground">Years Experience</p>
               </div>
               <div className="w-px h-12 bg-border" />
               <div>
-                <span className="text-4xl font-bold text-olive">5000+</span>
+                <span className="text-4xl font-bold text-olive">50+</span>
                 <p className="text-sm text-muted-foreground">Projects Completed</p>
               </div>
               <div className="w-px h-12 bg-border" />
               <div>
-                <span className="text-4xl font-bold text-olive">50+</span>
+                <span className="text-4xl font-bold text-olive">8</span>
                 <p className="text-sm text-muted-foreground">Team Members</p>
               </div>
             </div>

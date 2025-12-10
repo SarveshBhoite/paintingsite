@@ -22,7 +22,7 @@ const serviceDetails = [
       "Furniture protection",
       "Clean, dust-free process",
     ],
-    image: "/portfolio/interior1.jpg?height=500&width=600",
+    image: "/services/interior1.jpg?height=500&width=600",
   },
   {
     id: "exterior",

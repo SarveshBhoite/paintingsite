@@ -54,7 +54,7 @@ export function CTABanner() {
               variant="outline"
               className="border-pista-light text-pista-light hover:bg-pista-light hover:text-forest bg-transparent"
             >
-              <a href="tel:+1234567890">
+              <a href="tel:+917620773294">
                 <Phone className="mr-2 w-4 h-4" />
                 Call Us Now
               </a>

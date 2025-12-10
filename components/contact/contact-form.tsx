@@ -10,14 +10,14 @@ const contactInfo = [
   {
     icon: Phone,
     label: "Phone",
-    value: "9136870930",
-    href: "tel:+9136870930",
+    value: "7620773294",
+    href: "tel:+917620773294",
   },
   {
     icon: MessageCircle,
     label: "WhatsApp",
     value: "Chat with us",
-    href: "https://wa.me/1234567890",
+    href: "https://wa.me/917620773294",
     isWhatsApp: true,
   },
   {
@@ -125,17 +125,21 @@ export function ContactForm() {
               <h3 className="font-semibold text-forest mb-4">Business Hours</h3>
               <div className="space-y-2 text-muted-foreground">
                 <div className="flex justify-between">
-                  <span>Monday - Friday</span>
-                  <span className="font-medium text-forest">8:00 AM - 6:00 PM</span>
-                </div>
-                <div className="flex justify-between">
-                  <span>Saturday</span>
-                  <span className="font-medium text-forest">9:00 AM - 4:00 PM</span>
-                </div>
-                <div className="flex justify-between">
-                  <span>Sunday</span>
-                  <span className="font-medium text-forest">Closed</span>
-                </div>
+                <span>Available</span>
+                <span className="font-medium text-forest">24/7</span>
+              </div>
+
+              <div className="flex justify-between">
+                <span>Emergency Support</span>
+                <span className="font-medium text-forest">Always Open</span>
+              </div>
+
+              <div className="flex justify-between">
+                <span>Response Time</span>
+                <span className="font-medium text-forest">
+                  Within 30 Minutes
+                </span>
+              </div>
               </div>
             </div>
           </div>

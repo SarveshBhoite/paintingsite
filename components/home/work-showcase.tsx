@@ -9,39 +9,33 @@ import { Button } from "@/components/ui/button"
 const projects = [
   {
     id: 1,
-    title: "Modern Living Room",
     category: "Interior",
-    image: "/portfolio/interior1.jpg?height=400&width=600",
+    image: "/home/project1.jpg?height=400&width=600",
   },
   {
     id: 2,
-    title: "Victorian Exterior",
-    category: "Exterior",
-    image: "/portfolio/interior2.jpg?height=400&width=600",
+    category: "Design",
+    image: "/home/project2.jpg?height=400&width=600",
   },
   {
     id: 3,
-    title: "Office Complex",
-    category: "Commercial",
-    image: "/portfolio/interior1.jpg?height=400&width=600",
+    category: "Bedroom",
+    image: "/home/project3.jpg?height=400&width=600",
   },
   {
     id: 4,
-    title: "Textured Feature Wall",
-    category: "Texture Work",
-    image: "/portfolio/interior2.jpg?height=400&width=600",
+    category: "Schools",
+    image: "/home/project4.jpg?height=400&width=600",
   },
   {
     id: 5,
-    title: "Cozy Bedroom",
-    category: "Interior",
-    image: "/portfolio/interior1.jpg?height=400&width=600",
+    category: "Ceiling",
+    image: "/home/project5.jpg?height=400&width=600",
   },
   {
     id: 6,
-    title: "Restaurant Interior",
-    category: "Commercial",
-    image: "/portfolio/interior2.jpg?height=400&width=600",
+    category: "Exterior",
+    image: "/home/project6.jpg?height=400&width=600",
   },
 ]
 
@@ -112,14 +106,13 @@ export function WorkShowcase() {
             >
               <Image
                 src={project.image || "/placeholder.svg"}
-                alt={project.title}
+                alt={project.category}
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-forest/0 group-hover:bg-forest/70 transition-all duration-300" />
               <div className="absolute inset-0 p-6 flex flex-col justify-end opacity-0 group-hover:opacity-100 transition-all duration-300 translate-y-4 group-hover:translate-y-0">
-                <span className="text-accent text-sm font-medium">{project.category}</span>
-                <h3 className="text-pista-light text-xl font-semibold">{project.title}</h3>
+                <h3 className="text-pista-light text-xl font-semibold">{project.category}</h3>
               </div>
             </Link>
           ))}

@@ -4,34 +4,29 @@ import { useEffect, useRef, useState } from "react"
 
 const timelineEvents = [
   {
-    year: "2005",
-    title: "The Beginning",
-    description: "Started as a small family business with just 3 painters and a vision for excellence.",
-  },
-  {
-    year: "2010",
-    title: "First Major Contract",
-    description: "Secured our first commercial project — a 50,000 sq ft office complex renovation.",
-  },
-  {
     year: "2015",
-    title: "Team Expansion",
-    description: "Grew to 25 team members and opened our first dedicated workshop and office space.",
+    title: "Painting Journey Begins",
+    description: "The owner started working professionally, laying the foundation for future success.",
   },
   {
-    year: "2018",
-    title: "Eco-Friendly Initiative",
-    description: "Transitioned to 100% eco-friendly paints and sustainable practices.",
-  },
-  {
-    year: "2022",
-    title: "Regional Recognition",
-    description: "Named 'Best Painting Service' by Regional Home & Garden Magazine.",
+    year: "2023",
+    title: "PP Painting Services Founded",
+    description: "The company was officially launched, offering premium painting solutions.",
   },
   {
     year: "2024",
+    title: "Team Expansion",
+    description: "The team grew with skilled painters joining to deliver larger and better projects.",
+  },
+  {
+    year: "2025",
+    title: "Major Project",
+    description: "Successfully completed a high-value commercial & residential painting project.",
+  },
+  {
+    year: "2026",
     title: "Growing Strong",
-    description: "Now a team of 50+ professionals serving the entire metropolitan area.",
+    description: "Expanding service areas and capabilities while maintaining top-tier quality.",
   },
 ]
 
@@ -47,12 +42,10 @@ export function Timeline() {
             setVisibleItems((prev) => [...new Set([...prev, index])])
           }
         },
-        { threshold: 0.3 },
+        { threshold: 0.3 }
       )
 
-      if (ref) {
-        observer.observe(ref)
-      }
+      if (ref) observer.observe(ref)
 
       return observer
     })
@@ -63,10 +56,13 @@ export function Timeline() {
   return (
     <section className="bg-pista-light py-20 md:py-28">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-forest mb-4">Our Journey</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-forest mb-4">
+            Our Journey
+          </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Two decades of growth, learning, and delivering exceptional results
+            A timeline of growth, passion, and dedication to quality.
           </p>
         </div>
 
@@ -88,12 +84,20 @@ export function Timeline() {
                   : "opacity-0"
               }`}
             >
-              <div className={`md:w-[calc(50%-2rem)] ${index % 2 === 0 ? "md:mr-auto md:pr-8" : "md:ml-auto md:pl-8"}`}>
+              <div
+                className={`md:w-[calc(50%-2rem)] ${
+                  index % 2 === 0
+                    ? "md:mr-auto md:pr-8"
+                    : "md:ml-auto md:pl-8"
+                }`}
+              >
                 <div className="bg-pista rounded-xl p-6 md:p-8 shadow-sm hover:shadow-md transition-shadow">
                   <span className="inline-block px-4 py-1 bg-olive text-pista-light text-sm font-semibold rounded-full mb-4">
                     {event.year}
                   </span>
-                  <h3 className="text-xl font-semibold text-forest mb-2">{event.title}</h3>
+                  <h3 className="text-xl font-semibold text-forest mb-2">
+                    {event.title}
+                  </h3>
                   <p className="text-muted-foreground">{event.description}</p>
                 </div>
               </div>
