@@ -37,20 +37,20 @@ export function StorySection() {
                 excellence to every painting project, no matter the size.
               </p>
               <p>
-                What started in a modest garage has grown into a team of over 50 skilled painters, serving residential
-                and commercial clients across the region. Our founder, James Mitchell, believed that every wall tells a
+                What started in a modest garage has grown into a team of over 8 skilled painters, serving residential
+                and commercial clients across the region. Our founder, Nitin Jadhav, believed that every wall tells a
                 story, and every brush stroke should add to its beauty.
               </p>
               <p>
                 Today, we continue that legacy with the same passion and commitment to quality that defined our first
-                project. We've painted thousands of homes and businesses, but each project still receives the personal
+                project. We've painted many homes and businesses, but each project still receives the personal
                 attention and care it deserves.
               </p>
             </div>
             <div className="mt-8 flex items-center gap-6">
               <div>
                 <span className="text-4xl font-bold text-olive">10+</span>
-                <p className="text-sm text-muted-foreground">Years Experience</p>
+                <p className="text-sm text-muted-foreground">Years Personal Experience</p>
               </div>
               <div className="w-px h-12 bg-border" />
               <div>
@@ -69,36 +69,36 @@ export function StorySection() {
           <div className="relative">
             <div className="grid grid-cols-2 gap-4">
               <div
-                className={`relative aspect-[3/4] rounded-xl overflow-hidden ${
+                className={`relative aspect-[3/3] rounded-xl overflow-hidden ${
                   isVisible ? "animate-fade-in animation-delay-200" : "opacity-0"
                 }`}
               >
                 <Image
-                  src="/portfolio/interior2.jpg?height=500&width=375"
-                  alt="Painter at work"
+                  src="/about/nitin.jpeg?height=500&width=375"
+                  alt="Owner"
                   fill
                   className="object-cover"
                 />
               </div>
               <div
-                className={`relative aspect-[3/4] rounded-xl overflow-hidden mt-8 ${
+                className={`relative aspect-[6/5] rounded-xl overflow-hidden mt-8 ${
                   isVisible ? "animate-fade-in animation-delay-400" : "opacity-0"
                 }`}
               >
                 <Image
-                  src="/portfolio/interior1.jpg?height=500&width=375"
+                  src="/about/group1.jpeg?height=500&width=375"
                   alt="Team collaboration"
                   fill
                   className="object-cover"
                 />
               </div>
               <div
-                className={`relative aspect-[3/4] rounded-xl overflow-hidden -mt-8 ${
+                className={`relative aspect-[3/4] rounded-xl overflow-hidden mt-2 ${
                   isVisible ? "animate-fade-in animation-delay-300" : "opacity-0"
                 }`}
               >
                 <Image
-                  src="/portfolio/interior2.jpg?height=500&width=375"
+                  src="/about/interior.jpg?height=500&width=375"
                   alt="Finished interior"
                   fill
                   className="object-cover"
@@ -110,8 +110,8 @@ export function StorySection() {
                 }`}
               >
                 <Image
-                  src="/portfolio/interior1.jpg?height=500&width=375"
-                  alt="Color consultation"
+                  src="/about/exterior.jpg?height=500&width=375"
+                  alt="Finished Exterior"
                   fill
                   className="object-cover"
                 />

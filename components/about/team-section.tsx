@@ -5,24 +5,29 @@ import Image from "next/image"
 
 const teamMembers = [
   {
-    name: "Sarvesh Bhoite",
-    role: "Founder & CEO",
-    image: "/placeholder.svg?height=400&width=400",
+    name: "Nitin Jadhav",
+    role: "Founder & Owner",
+    image: "/about/nitin.jpeg?height=400&width=400",
   },
   {
-    name: "Sarvesh",
-    role: "Operations Manager",
-    image: "/placeholder.svg?height=400&width=400",
+    name: "Guru Rathod",
+    role: "Member",
+    image: "/about/guru.jpeg?height=400&width=400",
   },
   {
-    name: "Raj",
-    role: "Lead Painter",
-    image: "/placeholder.svg?height=400&width=400",
+    name: "Mayur Jadhav",
+    role: "Member",
+    image: "/about/mayur.jpeg?height=400&width=400",
   },
   {
-    name: "Siddhi",
-    role: "Color Consultant",
-    image: "/placeholder.svg?height=400&width=400",
+    name: "Kisan Rathod",
+    role: "Member",
+    image: "/about/kisan.jpeg?height=400&width=400",
+  },
+  {
+    name: "Rahul Rathod",
+    role: "Member",
+    image: "/about/rahul.jpeg?height=400&width=400",
   },
 ]
 
@@ -67,7 +72,7 @@ export function TeamSection() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
           {teamMembers.map((member, index) => (
             <div
               key={member.name}
